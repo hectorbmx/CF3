@@ -1,0 +1,41 @@
+[07-Oct-2022 17:25:34 America/Boise] Invalid argument supplied for foreach()
+[07-Oct-2022 17:25:58 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home2/riverac3/public_html/cf33/flight/core/Loader.php:131
+Stack trace:
+#0 /home2/riverac3/public_html/cf33/flight/core/Loader.php(131): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home2/riverac3/public_html/cf33/flight/core/Loader.php(81): flight\core\Loader->newInstance('PDO', Array)
+#2 /home2/riverac3/public_html/cf33/flight/Engine.php(101): flight\core\Loader->load('db', true)
+#3 /home2/riverac3/public_html/cf33/flight/core/Dispatcher.php(198): flight\Engine->__call('db', Array)
+#4 /home2/riverac3/public_html/cf33/flight/Flight.php(77): flight\core\Dispatcher::invokeMethod(Array, Array)
+#5 /home2/riverac3/public_html/cf33/index.php(9): Flight::__callStatic('db', Array)
+#6 {main}
+  thrown in /home2/riverac3/public_html/cf33/flight/core/Loader.php on line 131
+[07-Oct-2022 17:26:03 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home2/riverac3/public_html/cf33/flight/core/Loader.php:131
+Stack trace:
+#0 /home2/riverac3/public_html/cf33/flight/core/Loader.php(131): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home2/riverac3/public_html/cf33/flight/core/Loader.php(81): flight\core\Loader->newInstance('PDO', Array)
+#2 /home2/riverac3/public_html/cf33/flight/Engine.php(101): flight\core\Loader->load('db', true)
+#3 /home2/riverac3/public_html/cf33/flight/core/Dispatcher.php(198): flight\Engine->__call('db', Array)
+#4 /home2/riverac3/public_html/cf33/flight/Flight.php(77): flight\core\Dispatcher::invokeMethod(Array, Array)
+#5 /home2/riverac3/public_html/cf33/index.php(9): Flight::__callStatic('db', Array)
+#6 {main}
+  thrown in /home2/riverac3/public_html/cf33/flight/core/Loader.php on line 131
+[07-Oct-2022 17:26:05 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home2/riverac3/public_html/cf33/flight/core/Loader.php:131
+Stack trace:
+#0 /home2/riverac3/public_html/cf33/flight/core/Loader.php(131): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home2/riverac3/public_html/cf33/flight/core/Loader.php(81): flight\core\Loader->newInstance('PDO', Array)
+#2 /home2/riverac3/public_html/cf33/flight/Engine.php(101): flight\core\Loader->load('db', true)
+#3 /home2/riverac3/public_html/cf33/flight/core/Dispatcher.php(198): flight\Engine->__call('db', Array)
+#4 /home2/riverac3/public_html/cf33/flight/Flight.php(77): flight\core\Dispatcher::invokeMethod(Array, Array)
+#5 /home2/riverac3/public_html/cf33/index.php(9): Flight::__callStatic('db', Array)
+#6 {main}
+  thrown in /home2/riverac3/public_html/cf33/flight/core/Loader.php on line 131
+[13-Oct-2022 03:08:57 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home2/riverac3/public_html/cf33/flight/core/Loader.php:131
+Stack trace:
+#0 /home2/riverac3/public_html/cf33/flight/core/Loader.php(131): PDO->__construct('mysql:host=loca...', 'riverac3_admin', 'R1c2systems+')
+#1 /home2/riverac3/public_html/cf33/flight/core/Loader.php(81): flight\core\Loader->newInstance('PDO', Array)
+#2 /home2/riverac3/public_html/cf33/flight/Engine.php(101): flight\core\Loader->load('db', true)
+#3 /home2/riverac3/public_html/cf33/flight/core/Dispatcher.php(198): flight\Engine->__call('db', Array)
+#4 /home2/riverac3/public_html/cf33/flight/Flight.php(77): flight\core\Dispatcher::invokeMethod(Array, Array)
+#5 /home2/riverac3/public_html/cf33/index.php(9): Flight::__callStatic('db', Array)
+#6 {main}
+  thrown in /home2/riverac3/public_html/cf33/flight/core/Loader.php on line 131
